@@ -1,0 +1,42 @@
+/* MOBLIE VIEW */
+@media (max-width: 767px) {
+  #mainContainer {
+  width: 480px;
+  margin: auto;
+  }
+
+  #twoDivsSection {
+    margin: auto;
+  }
+
+  #fourDivsSection {
+    height: 500px;
+    width: 480px;
+  }
+}
+
+/* DESKTOP VIEW */
+@media (min-width: 787px) {
+  #mainContainer {
+    position: relative;
+    width: 960px;
+  }
+  #fourDivsSection {
+    display: inline-block;
+    margin-left: 200px;
+    width: 760px;
+  }
+
+  #twoDivsSection {
+    display: inline-block;
+    width: 760px;
+    margin-left: 200px;
+    padding-top: 4px;
+  }
+
+  #sideBar {
+    position: absolute;
+    top: 104px;
+    left: 0;
+  }
+}
