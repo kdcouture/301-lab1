@@ -1,15 +1,13 @@
-* {
-  box-sizing: border-box;
-}
 div {
-  /* margin: auto; */
+  display: flex;
   outline: black 2px solid;
   background-color: #301d57;
   color: white;
-  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 section {
-  /* margin: auto; */
   display: flex;
 }

@@ -36,7 +36,8 @@
 @media (min-width: 767px) {
  #a {
   /* background-image: url("https://via.placeholder.com/960x100/0ff"); */
-  width: 960px;
+  /* width: 960px; */
+  width: 100%;
   height: 100px;
  } 
 
@@ -50,7 +51,7 @@
   /* background-image: url("https://via.placeholder.com/380x200/0ff"); */
   /* float: left; */
   /* width: 380px; */
-  width: 80%;
+  width: 50%;
   height: 200px;
  }
 
@@ -65,7 +66,7 @@
  #i {
   /* background-image: url("https://via.placeholder.com/760x150/0ff"); */
   /* width: 760px; */
-  width: 80%;
+  width: 100%;
   height: 150px;
   /* margin-left: 200px; */
  }
