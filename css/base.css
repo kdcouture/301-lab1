@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 div {
   /* margin: auto; */
   outline: black 2px solid;

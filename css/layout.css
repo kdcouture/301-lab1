@@ -2,8 +2,9 @@
 @media (max-width: 767px) {
   #mainContainer {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
+    align-content: flex-start;
     height: 1055px;
     width: 480px;
   }
@@ -35,7 +36,7 @@
   #mainContainer {
     /* margin: auto; */
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     height: 800px;
     width: 960px;
@@ -45,20 +46,23 @@
 
   #sideBar{
     display: flex;
-    height: 600px;
-    width: 200px;
+    /* height: 600px; */
+    /* width: 200px; */
+    width: 20%;
   }
 
   #twoDivsSection {
     display: flex;
-    height: 200px;
-    width: 760px;
+    /* height: 200px; */
+    /* width: 760px; */
+    width: 80%;
   }
 
   #fourDivsSection {
     display: flex;
-    height: 250px;
-    width: 760px;
+    /* height: 250px; */
+    /* width: 760px; */
+    width: 80%;
   }
 }
 /* Need code below to redo lab 1 */

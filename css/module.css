@@ -49,20 +49,23 @@
  #c, #d {
   /* background-image: url("https://via.placeholder.com/380x200/0ff"); */
   /* float: left; */
-  width: 380px;
+  /* width: 380px; */
+  width: 80%;
   height: 200px;
  }
 
  #e, #f, #g, #h {
   /* float: left; */
   /* background-image: url("https://via.placeholder.com/190x250/0ff"); */
-  width: 190px;
+  /* width: 190px; */
+  width: 25%;
   height: 250px;
  }
 
  #i {
   /* background-image: url("https://via.placeholder.com/760x150/0ff"); */
-  width: 760px;
+  /* width: 760px; */
+  width: 80%;
   height: 150px;
   /* margin-left: 200px; */
  }
