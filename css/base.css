@@ -1,8 +1,12 @@
 div {
-  margin: auto;
+  /* margin: auto; */
   outline: black 2px solid;
+  background-color: #301d57;
+  color: white;
+  text-align: center;
 }
 
 section {
-  margin: auto;
+  /* margin: auto; */
+  display: flex;
 }
