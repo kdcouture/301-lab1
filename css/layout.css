@@ -1,6 +1,71 @@
 /* MOBLIE VIEW */
 @media (max-width: 767px) {
   #mainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1055px;
+    width: 480px;
+  }
+
+  #sideBar{
+    display: flex;
+    height: 150px;
+    width: 480px;
+  }
+
+  #twoDivsSection {
+    display: flex;
+    height: 200px;
+    width: 760px;
+    flex-wrap: wrap;
+  }
+
+  #fourDivsSection {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 480px;
+  }
+}
+
+
+/* DESKTOP VIEW */
+@media (min-width: 767px) {
+  #mainContainer {
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 960px;
+    /* align-content: flex-start;
+    justify-content: flex-start; */
+  }
+
+  #sideBar{
+    display: flex;
+    height: 600px;
+    width: 200px;
+  }
+
+  #twoDivsSection {
+    display: flex;
+    height: 200px;
+    width: 760px;
+  }
+
+  #fourDivsSection {
+    display: flex;
+    height: 250px;
+    width: 760px;
+  }
+}
+/* Need code below to redo lab 1 */
+
+/* MOBLIE VIEW
+@media (max-width: 767px) {
+  #mainContainer {
   width: 480px;
   margin: auto;
   }
@@ -16,7 +81,7 @@
 }
 
 /* DESKTOP VIEW */
-@media (min-width: 787px) {
+/* @media (min-width: 767px) {
   #mainContainer {
     position: relative;
     width: 960px;
@@ -39,4 +104,4 @@
     top: 104px;
     left: 0;
   }
-}
+} */
