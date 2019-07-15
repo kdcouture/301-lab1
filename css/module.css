@@ -3,12 +3,14 @@
   #a {
     height: 75px;
     width: 480px;
+    background-color: darkslateblue;
     /* background-image: url("https://via.placeholder.com/480x75/f0f"); */
   }
   
   #b {
     height: 150px;
     width: 480px;
+    background-color: darkslateblue;
     /* display: inline; */
     /* background-image: url("https://via.placeholder.com/480x150/f0f"); */
   }
@@ -16,6 +18,7 @@
   #c, #d {
     height: 125px;
     width: 480px;
+    background-color: darkslateblue;
     /* background-image: url("https://via.placeholder.com/480x125/f0f"); */
   }
   
@@ -23,12 +26,14 @@
     /* float: left; */
     height: 250px;
     width: 240px;
+    background-color: darkslateblue;
     /* background-image: url("https://via.placeholder.com/240x250/f0f"); */
   }
   
   #i {
     height: 80px;
     width: 480px;
+    background-color: darkslateblue;
     /* background-image: url("https://via.placeholder.com/480x80/f0f"); */
   }
 }
@@ -39,12 +44,14 @@
   /* width: 960px; */
   width: 100%;
   height: 100px;
+  background-color: darkgreen;
  } 
 
  #b {
   /* background-image: url("https://via.placeholder.com/200x600/0ff"); */
   width: 200px;
   height: 600px;
+  background-color: darkgreen;
  }
 
  #c, #d {
@@ -53,6 +60,7 @@
   /* width: 380px; */
   width: 50%;
   height: 200px;
+  background-color: darkgreen;
  }
 
  #e, #f, #g, #h {
@@ -61,6 +69,7 @@
   /* width: 190px; */
   width: 25%;
   height: 250px;
+  background-color: darkgreen;
  }
 
  #i {
@@ -68,7 +77,54 @@
   /* width: 760px; */
   width: 100%;
   height: 150px;
+  background-color: darkgreen;
   /* margin-left: 200px; */
  }
 
 }
+
+/* Tablet */
+@media (min-width: 1000px) {
+  #a {
+   /* background-image: url("https://via.placeholder.com/960x100/0ff"); */
+   /* width: 960px; */
+   width: 100%;
+   height: 100px;
+   background-color: darkred;
+  } 
+ 
+  #b {
+   /* background-image: url("https://via.placeholder.com/200x600/0ff"); */
+   width: 200px;
+   height: 600px;
+   background-color: darkred;
+  }
+ 
+  #c, #d {
+   /* background-image: url("https://via.placeholder.com/380x200/0ff"); */
+   /* float: left; */
+   /* width: 380px; */
+   width: 50%;
+   height: 200px;
+   background-color: darkred;
+  }
+ 
+  #e, #f, #g, #h {
+   /* float: left; */
+   /* background-image: url("https://via.placeholder.com/190x250/0ff"); */
+   /* width: 190px; */
+   width: 25%;
+   height: 250px;
+   background-color: darkred;
+  }
+ 
+  #i {
+   /* background-image: url("https://via.placeholder.com/760x150/0ff"); */
+   /* width: 760px; */
+   width: 100%;
+   height: 150px;
+   background-color: darkred;
+   /* margin-left: 200px; */
+  }
+ 
+ }
